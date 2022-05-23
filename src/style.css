@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; /*el ancho ocupe el borde y el padding  */
+    background: rgb(124, 23, 84);
+  }
+  
+
+.form_card_validation{
+width:400px; /*  ancho del formulario*/
+background: rgb(171, 41, 119); /*  color del formulario*/
+padding:30px; /*  distnaciancia del margen al texto*/
+margin:auto; /*  centrado*/
+margin-top: 100px;/*  */
+border-radius: 4px;/*  borde del formulario*/
+font-family: calibri;/*  tipo de fuente dle texto*/
+color:white;/*  color de los elementos hijos*/
+box-shadow: 7px 13px 37px; /*  sombreado*/
+  }
+
+  .form_card_validation h4 {  
+     font: 32px;
+     background: rgb(171, 41, 119);
+     margin-bottom: 15px;
+     margin: 16px 0;
+     font-size: 20px;
+ ;
+  }
+
+  .num_tarjeta_container{  
+   width:100%;
+   background: rgb(208, 106, 176);
+   padding: 10px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border:3px solid rgb(174, 77, 146);
+   font-family: calibri;
+   font-size: 15px;
+ 
+ }
+ .button_validar{
+  width:100%;
+  background: rgb(139, 35, 111);
+  padding: 8px;
+  border:2px solid rgb(174, 77, 146);
+  color:white;
+  font-family: calibri;
+  font-size: 18px;
+  margin: 16px 0;
+  border-radius: 4px;
+ }
