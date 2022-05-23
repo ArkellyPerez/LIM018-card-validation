@@ -1,34 +1,29 @@
 const validator = {
 
-isValid:(card_number)=>{
-  let CardNumber=[...card_number].reverse();
- // let numero1=Math.abs(CardNumber);
+isValid:(creditCardNumber)=>{
+  let CardNumber=[...creditCardNumber].reverse();// convierte en array iniciando del final al inicio
 
-let arrayPares = CardNumber.filter((num, index) => index % 2 !=0);
-let arrayImpares = CardNumber.filter((num, index) => index % 2 ==0);
- // alert(arrayPares);
-  //alert(CardNumber);
- let sumaNvoValorPar=0;
- let sumaNvoValorImpar=0;
- let flag=true;
-  for(let i in arrayPares){
 
-    let isNumber=Math.abs(arrayPares[i]);
-    let nvoValorPar=isNumber*2;
-    if(nvoValorPar>=10){
-      nvoValorPar=nvoValorPar-9;
+  let arrayPares = CardNumber.filter((num, index) => index % 2 !=0);  // crea un array con solo los numeros pares
+  let arrayImpares = CardNumber.filter((num, index) => index % 2 ==0);// crea un array con solo los numeros impares
+ 
+  let sumaNvoValorPar=0;
+  let sumaNvoValorImpar=0;
+  let flag=true;
+// Recorre el array de los pares para realizar la operacion  y la sumatoria de todos los nuevos digitos pares
+    for(let i in arrayPares){
+        let isNumber=Math.abs(arrayPares[i]); // convierte cada numero de string a entero
+        let nvoValorPar=isNumber*2;
+            if(nvoValorPar>=10){
+              nvoValorPar=nvoValorPar-9;
+            } 
+        sumaNvoValorPar=sumaNvoValorPar+nvoValorPar;
     }
-    sumaNvoValorPar=sumaNvoValorPar+nvoValorPar;
-  }
-
-  //alert( "el valor par es: "+sumaNvoValorPar);
-
-
-  for(let i in arrayImpares){
-    sumaNvoValorImpar=sumaNvoValorImpar+Math.abs(arrayImpares[i]);
-  }
-  //alert( "el valor impar es: "+sumaNvoValorImpar);
-
+//Recorre el array de los impares para sumarlos
+    for(let i in arrayImpares){
+        sumaNvoValorImpar=sumaNvoValorImpar+Math.abs(arrayImpares[i]);// convierte cada numero de string a entero
+    }
+  
   let sumatotal=sumaNvoValorImpar+sumaNvoValorPar;
    if(sumatotal%10==0)
     {
@@ -38,13 +33,40 @@ let arrayImpares = CardNumber.filter((num, index) => index % 2 ==0);
       flag=false;
     }
 
-   // alert( "el valor total  es: "+sumatotal);
+   
+  return flag;
 
+},
 
+maskify:(creditCardNumber)=>{
 
-return flag;
-
+  let maskCardNumber=[...creditCardNumber];
+  let num=maskCardNumber.length;
+ 
+  for(let i=0; i<num-4; i++){
+    maskCardNumber[i]="#";
+  }
+  //alert( maskCardNumber);
+  let var1='';
+  var1=maskCardNumber.toString();
+  alert( var1);
+  return var1;
+  
 }
+
+
+
+
+
+
+
 };
+
+
+
+
+
+
+
 
 export default validator;

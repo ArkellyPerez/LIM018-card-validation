@@ -9,15 +9,21 @@ function funcion_validar(){
   number = document.querySelector('.num_tarjeta_container').value;
    //alert(number);
   validator.isValid(number);
+ 
   if(validator.isValid(number)==true){
   document.querySelector('.rpta_validation').innerHTML="Número de tarjeta correcto";
   }
   else {
-    document.querySelector('.rpta_validation').innerHTML="La Tarjeta ingresada no válida";
+    document.querySelector('.rpta_validation').innerHTML="La Tarjeta ingresada no es válida";
     }
-//alert(number);
- alert( validator.isValid(number));
+
+  let str2=validator.maskify(number);
+  document.getElementById("num_cantainer").innerHTML=str2;
+alert(typeof(str2));
+ //alert( validator.isValid(number));
   //console.log(validator);
+
+
 
    }
    
