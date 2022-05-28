@@ -1,5 +1,5 @@
 const validator = {
-
+// FUNCION PARA VALIDAR EL NUMERO DE LA TARJETA
 isValid:(creditCardNumber)=>{
   let CardNumber=[...creditCardNumber].reverse();// convierte en array iniciando del final al inicio
 
@@ -37,7 +37,7 @@ isValid:(creditCardNumber)=>{
   return flag;
 
 },
-
+// FUNCION PARA ENCRIPTAR EL NUMERO DE LA TARJETA
 maskify:(creditCardNumber)=>{
 
   let maskCardNumber=[...creditCardNumber];
@@ -46,11 +46,10 @@ maskify:(creditCardNumber)=>{
   for(let i=0; i<num-4; i++){
     maskCardNumber[i]="#";
   }
-  //alert( maskCardNumber);
+  
   let var1='';
   var1=maskCardNumber.toString();
-  alert( var1);
-  return var1;
+  return var1.replace(/,/g,"");
   
 }
 

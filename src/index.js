@@ -18,10 +18,11 @@ function funcion_validar(){
     }
 
   let str2=validator.maskify(number);
-  document.getElementById("num_cantainer").innerHTML=str2;
-alert(typeof(str2));
+ // document.getElementById("num_cantainer").innerHTML=str2;
+ document.querySelector('.rpta_encriptation').innerHTML="Tarjeta: "+str2;
+
  //alert( validator.isValid(number));
-  //console.log(validator);
+ console.log(str2);
 
 
 

@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box; /*el ancho ocupe el borde y el padding  */
-    background: rgb(124, 23, 84);
+    background: rgb(171, 41, 119);
   }
   
 
@@ -24,8 +24,16 @@ box-shadow: 7px 13px 37px; /*  sombreado*/
      margin-bottom: 15px;
      margin: 16px 0;
      font-size: 20px;
- ;
+ 
   }
+  .form_card_validation h5 {  
+    font: 32px;
+    background: rgb(171, 41, 119);
+    margin-bottom: 15px;
+    margin: 16px 0;
+    font-size: 20px;
+
+ }
 
   .num_tarjeta_container{  
    width:100%;
