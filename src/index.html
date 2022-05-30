@@ -6,27 +6,67 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <section> <h2 class="titulo" > TIENDA DE DETALLES PANDIMANIA </h2></section>
+      <header class="header_page">
+             <ul>
+               <a class="a_header" href="#">Inicio</a>
+             </ul>
+      </header>
+      <main>
 
-      <section class="form_card_validation">
+         <section class="form_titulo">
+                  <h2> TIENDA DE DETALLES PANDIMANIA </h2>
+         </section>
+
+         <section class="form_card_validation">
   
-            <h4>Formulario de pago </h4>
-            <input class="num_tarjeta_container" type="text" id="num_cantainer"  placeholder="Ingrese el numero de tarjeta">
-            <h5 class="rpta_encriptation" id="rpta_e">   </h5>
-            <button class="button_validar" name="button_validar1" id="button_validarr" >Validar Tarjeta</button>
-           
-            <h5 class="rpta_validation" id="rpta">   </h5>
-      
-        </section>
+                  <h4>Formulario de pago </h4>
+                  <input class="num_tarjeta_container" type="text" id="num_cantainer"  placeholder="Ingrese el numero de tarjeta">
+                  <input class="num_tarjeta_container" type="text"   placeholder="Nombre completo">
+                  <input class="num_tarjeta_container" type="text"   placeholder="cvv">
+                  <input class="num_tarjeta_container" type="text"   placeholder="Fecha de Vencimiento">
+                  <h5 class="rpta_encriptation" id="rpta_e">   </h5>
+                  <button class="button_validar" name="button_validar1" id="button_validarr" >Validar Tarjeta</button>
+         
+                  <h6 class="rpta_validation" id="rpta">   </h6>
+    
+         </section>
+       
+         <form class="products">
+                  <h3>PRODUCTOS </h3>
+                  <img src="images/p1.JPG"  alt="---peluche" >
+                  <input type="checkbox" class="products_list" name="r1" > Panda
 
+                  <img src="images/p1.JPG"  alt="---peluche" >
+                  <input type="checkbox" class="products_list" name="r1" > Panda 
 
-    </main>
+                  <img src="images/p1.JPG"  alt="---peluche" >
+                  <input type="checkbox" class="products_list" name="r1" > Panda 
+
+                  <img src="images/p1.JPG"  alt="---peluche" >
+                  <input type="checkbox" class="products_list" name="r1" > Panda 
+
+                  <img src="images/p1.JPG"  alt="---peluche" >
+                  <input type="checkbox" class="products_list" name="r1" > Panda <br> <br>
+
+                  <img src="images/f1.JPG"  alt="Flores">
+                  <input type="checkbox" class="products_list" name="r1" > Ramo de rosas 
+
+                  <img src="images/f1.JPG"  alt="Flores">
+                  <input type="checkbox" class="products_list" name="r1" > Ramo de rosas 
+        
+                  <img src="images/f1.JPG"  alt="Flores">
+                  <input type="checkbox" class="products_list" name="r1" > Ramo de rosas <br>
+        
+                  <button class="button_validar" name="button_validar1" id="button_comprar" >Comprar</button>
+
+          </form> 
+         
+
+      </main>
      
-     
-  
-    <footer></footer>
-    <script src="index.js" type="module"></script>
   </body>
+
+  <footer class="footer_page">Todos los derechos reservados
+  </footer>
+    <script src="index.js" type="module"></script>
 </html>
