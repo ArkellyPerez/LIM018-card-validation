@@ -109,6 +109,16 @@
 
 }
 
+.MontoPago {  
+  float: left;
+  font: 32px;
+  background:rgb(248, 246, 247);
+  margin-bottom: 15px;
+  margin: 8px;
+  font-size: 20px;
+  color:rgb(174, 9, 130)
+
+}
 
 .header_page {  
   background-color: rgb(134, 15, 88);
