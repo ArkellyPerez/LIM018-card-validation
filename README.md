@@ -1,3 +1,19 @@
+# TIENDA DE DETALLES PANDIMANIA
+Aqui encontrarás detalles para regalar a esa persona especial, tenemos peluches y ramos de diferentes flores que
+te sorprenderán!. 
+image.png
+
+Mi diseño inicial fue el siguiente:
+https://www.figma.com/file/6LI624IqQEV7n27NRlNyrS/Untitled?node-id=0%3A1
+
+Los usuarios a quienes está dirigida la página son personas  de toda edad ( desde adolecentes) que están interesados en regalar un presente a alguien que ellos consideran especial en su vida.
+Es por eso que la pagina es muy practica y amigable en su uso. Solo se necesita seleccionar el producto que se 
+desea comprar, agregarlo al carrito e ingresar los datos de la tarjeta con la que se realizará el pago.
+
+
+Tuve feedback de mis compañeras  que me sugirieron que las imagenes deben ser mas grandes para poder visualizar mejor los productos. Tambien me sugierió un coach en una office hour usar el Eslint.
+
+
 # Tarjeta de crédito válida
 
 ## Índice

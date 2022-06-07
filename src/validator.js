@@ -17,14 +17,14 @@ isValid:(creditCardNumber)=>{
             if(nvoValorPar>=10){
               nvoValorPar=nvoValorPar-9;
             } 
-        sumaNvoValorPar=sumaNvoValorPar+nvoValorPar;
+           sumaNvoValorPar=sumaNvoValorPar+nvoValorPar;
     }
 //Recorre el array de los impares para sumarlos
     for(let i in arrayImpares){
         sumaNvoValorImpar=sumaNvoValorImpar+Math.abs(arrayImpares[i]);// convierte cada numero de string a entero
     }
   
-  let sumatotal=sumaNvoValorImpar+sumaNvoValorPar;
+   let sumatotal=sumaNvoValorImpar+sumaNvoValorPar;
    if(sumatotal%10==0)
     {
       flag=true;
@@ -33,8 +33,7 @@ isValid:(creditCardNumber)=>{
       flag=false;
     }
 
-   
-  return flag;
+   return flag;
 
 },
 // FUNCION PARA ENCRIPTAR EL NUMERO DE LA TARJETA
@@ -53,19 +52,6 @@ maskify:(creditCardNumber)=>{
   
 }
 
-
-
-
-
-
-
 };
-
-
-
-
-
-
-
 
 export default validator;

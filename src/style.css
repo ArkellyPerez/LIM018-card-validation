@@ -18,10 +18,8 @@
 .form_card_validation{
   float: right; /*  hace al formulario flotante para que se ubique al costado del otro formulario*/
   width:400px; /*  ancho del formulario*/
-  /* background: rgb(171, 41, 119); /*  color del formulario*/
   background: rgb(248, 246, 247);
   padding:30px; /*  distnaciancia del margen al texto*/
-  /* margin-left:1100px;  alineado a la izquierda*/
   margin: 15px;/*  del borde de la izquierda hacia el centro*/
   margin-top: 12px;
   border-radius: 4px;/*  borde del formulario*/
@@ -84,10 +82,10 @@
 
 
 .products{
-  width: 50%;
+  width: 70%;
   float: left;
   padding: 6px; /*ancho del boton  */
-   background: rgb(253, 252, 252);
+   background: white;
   border:2px solid rgb(199, 26, 135);
   margin-right: 30px; /* centra el boton  */
   margin:10px;
@@ -132,12 +130,13 @@
   color: white;
     }
 
-footer {  
+    .footer_page {  
   background-color: rgb(134, 15, 88);
-      position: absolute;
-      bottom: 0;/* le da la posición en el pie de la pagina*/
-      width: 100%;
-      height: 40px; /* ancho del pie de pagina*/
-      color: white;
+   /*  position: absolute;
+      bottom:0; /*le da la posición en el pie de la pagina*/
+   /* width: 100%;
+    height: 40px; /* ancho del pie de pagina*/
+  
+   /*   color: white;
 
 }
