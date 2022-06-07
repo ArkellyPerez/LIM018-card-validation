@@ -1,7 +1,7 @@
 # TIENDA DE DETALLES PANDIMANIA
 Aqui encontrarás detalles para regalar a esa persona especial, tenemos peluches y ramos de diferentes flores que
 te sorprenderán!. 
-image.png
+D:\ARKELLY\CAPACITACIONES\LABORATORIA\LIMA-18\LIM018-card-validation\src\images\webpage.JPG
 
 Mi diseño inicial fue el siguiente:
 https://www.figma.com/file/6LI624IqQEV7n27NRlNyrS/Untitled?node-id=0%3A1
